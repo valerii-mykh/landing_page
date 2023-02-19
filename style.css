@@ -14,7 +14,7 @@ body {
     background-color: #290d0d;
     color: white;
     height: 50px;
-    text-align: left; 
+    text-align: left;
     width: 100%;
     position: fixed;
 }
@@ -273,7 +273,7 @@ h3 {
     display: flex;
     padding: 50px;
     width: 100%;
-    
+
 }
 
 .laptop img {
@@ -330,6 +330,7 @@ h3 {
     text-transform: uppercase;
     color: #fff;
 }
+
 .staff {
     padding: 50px;
     margin: auto;
@@ -361,6 +362,7 @@ h3 {
     justify-content: space-around;
 
 }
+
 .connection {
     background-image: url(web/img/bg/divider4.jpg);
     background-repeat: no-repeat;
@@ -528,13 +530,15 @@ h3 {
     flex-direction: column;
 
 }
+
 .information_contact a {
-   color: #69acef;
+    color: #69acef;
     text-decoration: none;
-   }
+}
+
 .information_contact p {
-  margin-bottom: 0;
-   }
+    margin-bottom: 0;
+}
 
 .information_news {
 
@@ -545,6 +549,7 @@ h3 {
     flex-direction: column;
     padding: 20px 10px 50px 5px;
 }
+
 .information_news a {
     text-transform: capitalize;
     background-color: #5bb95d;
@@ -555,6 +560,7 @@ h3 {
     text-decoration: none;
     border-radius: 10px
 }
+
 .information_news input {
     text-transform: capitalize;
     color: gray;
@@ -568,30 +574,43 @@ h3 {
 
     text-align: left;
     text-transform: capitalize;
-       width: 33%;
-      display: flex;
+    width: 33%;
+    display: flex;
     flex-direction: column;
     padding: 20px 10px 50px 5px;
 }
+
 footer {
-   
+
     width: 100%;
 }
-footer p{ display: flex;
+
+footer p {
+    display: flex;
     justify-content: center;
-   height: 80px;
+    height: 80px;
     padding: 30px;
     margin: 0;
     width: 100%;
 }
-footer a{
+
+footer a {
     text-decoration: none;
-    
+
 }
+
 .one {
     background-color: #2b2b2b;
-    
+
 }
-.two p {height: 20px;
-padding: 0;
-font-size: 15px;}
+
+.two p {
+    height: 20px;
+    padding: 0;
+    font-size: 15px;
+}
+
+.one,
+.two {
+    display: none;
+}
